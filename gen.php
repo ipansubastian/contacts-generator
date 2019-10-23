@@ -3,14 +3,14 @@
 	/*==================================================*/      
 	/*  Deskripsi : Phone Number Generator              |/
 	/|  Coder     : Zaid Harisah                        |/
-	/|  Facebook  : fb.com/kurotaka.id                  |/
-	/|  Site      : https://zaid-dev.github.io          |/
+	/|  Facebook  : fb.com/zaidhdev                     |/
+	/|  Site      : https://zaidhdev.github.io          |/
 	/|  Disusun   : Senin, 30 Sep 2019 16:56            |/
 	/|   ______   _                                     |/
 	/|  |__  / | | | *** /                              |/
 	/|    / /| |_| | ** /                               |/
 	/|   / /_|  _  | * /                                |/
-	/|  /____|_| |_|  / github.com/zaid-dev             |/
+	/|  /____|_| |_|  / github.com/zaidhdev             |/
 	/|                                                  */
 	/*==================================================*/
 
