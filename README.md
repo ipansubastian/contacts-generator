@@ -1,3 +1,3 @@
 # phonenumber-generator
-## penggunaan
+## Penggunaan
 $ php gen.php
