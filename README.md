@@ -1,5 +1,5 @@
 # phonenumber-generator
-Generate jutaan nomor hp dan simpan kedalam format vcf.
+Hasilkan jutaan nomor ponsel dan simpan kedalam format vcf. :v :v
 
 ## Penggunaan
 $ php gen.php
