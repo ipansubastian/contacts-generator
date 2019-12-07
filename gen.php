@@ -1,28 +1,26 @@
 <?php
 
-	/*==================================================*/      
-	/*  Deskripsi : Phone Number Generator              |/
-	/|  Coder     : Zaid Harisah                        |/
-	/|  Facebook  : fb.com/zaidhdev                     |/
-	/|  Site      : https://zaidhdev.github.io          |/
-	/|  Disusun   : Senin, 30 Sep 2019 16:56            |/
-	/|   ______   _                                     |/
-	/|  |__  / | | | *** /                              |/
-	/|    / /| |_| | ** /                               |/
-	/|   / /_|  _  | * /                                |/
-	/|  /____|_| |_|  / github.com/zaidhdev             |/
-	/|                                                  */
-	/*==================================================*/
+const PERCOBAAN="ON";
+
+if (PERCOBAAN==="ON"){
+	define("NOMOR_TN","000");
+	define("NOMOR_TS","999");
+}
+elseif (PERCOBAAN==="OFF"){
+	define("NOMOR_TN","0000000");
+	define("NOMOR_TS","9999999");
+}
+else{die("Opsi tidak valid pada baris 3\n");}
 
 echo<<<end
 \n\n
 \e[32m        \_____\e[1m__/\e[0m
 \e[32m    `.,-'\__\e[1m___/`-.,'\e[0m
-\e[32m     /`..'\ _ /\e[1m`.,'\	      --Phone Number Generator v 1.1\e[0m
+\e[32m     /`..'\ _ /\e[1m`.,'\	      --Phone Number Generator v 1.2\e[0m
 \e[32m    /  /`.,' \e[1m`.,'\  \		Coded by : Zaid Harisah
-\e[32m   \e[0;32m/__/__\e[1m/     \__\__\__	Github   : https://github.com/zaid-dev/
-\e[32m   \  \  \     \e[1m/  /  /		Site     : https://zaid-dev.github.io
-\e[32m    \  \,'`._,'`.\e[1m/  /		Fakebook : https://fb.com/kurotaka.id
+\e[32m   \e[0;32m/__/__\e[1m/     \__\__\__	Github   : https://github.com/zaidhdev/
+\e[32m   \  \  \     \e[1m/  /  /		Site     : https://zaidhdev.github.io
+\e[32m    \  \,'`._,'`.\e[1m/  /		Fakebook : https://fb.com/zaidhdev
 \e[32m     \,\e[1m'`./___\,'`./\e[0m
 \e[32m    ,'`-./\e[1m_____\,-'`.\e[32m
 \e[32m        /\e[1m       \ \e[32m	   \n
@@ -218,10 +216,8 @@ end;
 				echo "\tGagal menghandle file 'result/$np'.\n";
 			}
 			else{
-					#$s="{$i}0000000";
-					#$e="{$i}9999999";
-					$s="{$i}00";
-					$e="{$i}99";
+					$s="{$i}".NOMOR_TN;
+					$e="{$i}".NOMOR_TS;
 				for ($k=$s;$k<=$e;$k++){
 					$vcard=<<<end
 BEGIN:VCARD
